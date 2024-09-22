@@ -108,6 +108,7 @@ def generate_response_based_on_course_details(user_message, product_details):
     Step 3:{delimiter} <step 3 response to customer>
 
     Make sure to include {delimiter} to separate every step.
+    Make sure there is no {delimiter} at the end of Step 3.
     """
 
     messages =  [
