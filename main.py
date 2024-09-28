@@ -12,7 +12,7 @@ st.set_page_config(
 )
 # endregion <--------- Streamlit App Configuration --------->
 
-st.title("Streamlit App")
+st.title("My chatbot")
 
 # Check if the password is correct.  
 if not check_password():  
@@ -21,7 +21,7 @@ if not check_password():
 form = st.form(key="form")
 form.subheader("Prompt")
 
-user_prompt = form.text_area("Enter your prompt here", height=200)
+user_prompt = form.text_area("Enter your prompt here now!!!", height=200)
 
 if form.form_submit_button("Submit"):
     
